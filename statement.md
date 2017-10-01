@@ -10,6 +10,8 @@ This C++ template lets you get started quickly with a simple one-page playground
 
 using namespace std;
 
+// { autofold
+
 void displayBitboard(uint64_t position) {
 	int i,j;
 	uint64_t currPosition = position;
@@ -60,6 +62,8 @@ void display(uint64_t board, uint64_t position) { // TODO: afficher le jeu a l'e
     	printf("\n");
     }
 }
+
+// }
 
 uint64_t moveRight(uint64_t position) {
     return position >> 5;
